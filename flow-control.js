@@ -6,7 +6,10 @@ function basicTeenager(age) {
 }
 
 function teenager(age) {
-
+  if(age<=19 && age>=3){
+    return 'You are a teenager!'
+  }
+  return undefined
 }
 
 function ageChecker(age) {
